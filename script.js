@@ -52,6 +52,17 @@ const stateLabels = {
   "Wisconsin": {abbr: "WI", lat: 44.2685, lon: -89.6165},
   "Wyoming": {abbr: "WY", lat: 42.7560, lon: -107.3025}
 };
+// Add labels (abbreviations)
+Object.keys(stateLabels).forEach(state => {
+    let s = stateLabels[state];
+    let label = L.marker([s.lat, s.lon], {
+        icon: L.divIcon({
+            className: 'state-label',
+            html: `<b>${s.abbr}</b>`
+        })
+    });
+    label.addTo(map);
+});
 
 const historyData = {
   1776: "The original 13 colonies declared independence and became the first U.S. states.",
