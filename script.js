@@ -130,5 +130,17 @@ function loadMap(year) {
 loadMap(1783);
 
 document.getElementById("yearSelect").addEventListener("change", function() {
-  loadMap(parseInt(this.value));
+    let year = parseInt(this.value);
+
+    // Update the map
+    loadMap(year);
+
+    // Update the historical text for the selected year
+    document.getElementById("yearInfo").innerText = yearDetails[year] || "";
 });
+
+
+//Original code
+//document.getElementById("yearSelect").addEventListener("change", function() {
+//  loadMap(parseInt(this.value));
+//});
