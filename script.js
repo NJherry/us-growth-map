@@ -1,10 +1,10 @@
-const yearDetails = {
-    1783: "In 1783, the United States consisted mainly of the original 13 colonies after the Treaty of Paris ended the Revolutionary War.",
-    1800: "By 1800, the nation expanded westward, preparing for major growth including the Louisiana Purchase in 1803.",
-    1850: "By 1850, the U.S. had grown significantly, with new states following western migration and rising tensions over slavery.",
-    1900: "By 1900, the U.S. industrialized rapidly, gaining states across the West and entering the modern era.",
-    1959: "By 1959, Alaska and Hawaii joined, completing the 50 U.S. states as we know them today."
-};
+//const yearDetails = {
+  //  1783: "In 1783, the United States consisted mainly of the original 13 colonies after the Treaty of Paris ended the Revolutionary War.",
+    //1800: "By 1800, the nation expanded westward, preparing for major growth including the Louisiana Purchase in 1803.",
+    //1850: "By 1850, the U.S. had grown significantly, with new states following western migration and rising tensions over slavery.",
+    //1900: "By 1900, the U.S. industrialized rapidly, gaining states across the West and entering the modern era.",
+    //1959: "By 1959, Alaska and Hawaii joined, completing the 50 U.S. states as we know them today."
+//};
 // Store your history notes here
 const historyData = {
   1776: "The original 13 colonies declared independence and became the first U.S. states.",
