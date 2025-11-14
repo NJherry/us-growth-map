@@ -1,37 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<title>Growth of the United States</title>
-<link rel="stylesheet" href="style.css">
+    <title>Growth of the U.S.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 </head>
 <body>
 
-<h1>Growth of the United States: 13 Colonies to 50 States</h1>
+<h2>Growth of the United States: 13 Colonies → 50 States</h2>
 
-<label for="yearSelect">Select Year:</label>
-<select id="yearSelect" onchange="updateTimeline()">
-    <option value="1776">1776</option>
+<select id="yearSelect">
+    <option value="1783">1783 – Original 13 Colonies</option>
     <option value="1800">1800</option>
     <option value="1850">1850</option>
     <option value="1900">1900</option>
-    <option value="1959">1959</option>
+    <option value="1959">1959 – All 50 States</option>
 </select>
 
-<div id="mapContainer">
-    <svg id="usMap" viewBox="0 0 1000 600">
-        <!-- 50 states paths (simplified for brevity) -->
-        <!-- Example: use your own full SVG or a simplified public SVG -->
-        <!-- Each state path must have id=stateAbbr -->
-        <path id="AL" data-year="1819" d="M...Z" class="state"></path>
-        <path id="AK" data-year="1959" d="M...Z" class="state"></path>
-        <path id="AZ" data-year="1912" d="M...Z" class="state"></path>
-        <path id="AR" data-year="1836" d="M...Z" class="state"></path>
-        <!-- Continue for all states -->
-    </svg>
-</div>
-
-<div id="historyBox"></div>
+<div id="map"></div>
 
 <script src="script.js"></script>
 </body>
