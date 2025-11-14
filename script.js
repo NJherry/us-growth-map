@@ -103,6 +103,19 @@ function loadMap(year) {
           layer.bindPopup(`<b>${name}</b><br>Joined: ${stateYears[name]}`);
         }
       }).addTo(map);
+
+     // Add labels (abbreviations)
+    Object.keys(stateLabels).forEach(state => {
+        let s = stateLabels[state];
+        let label = L.marker([s.lat, s.lon], {
+            icon: L.divIcon({
+                className: 'state-label',
+                html: `<b>${s.abbr}</b>`
+            })
+    });
+    label.addTo(map);
+});
+   
     });
 }
 
