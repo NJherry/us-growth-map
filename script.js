@@ -130,4 +130,10 @@ loadMap(1783);
 
 document.getElementById("yearSelect").addEventListener("change", function() {
   loadMap(parseInt(this.value));
+    
+document.getElementById("yearSelect").addEventListener("change", function() {
+    let year = parseInt(this.value);
+    loadMap(year);
+    document.getElementById("yearInfo").innerText = yearDetails[year];
+});    
 });
