@@ -1,19 +1,15 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 20px;
+  font-family: Arial;
+  text-align: center;
 }
 
-#mapContainer {
-    width: 90%;
-    margin: 20px auto;
+#map {
+  height: 600px;
+  width: 90%;
+  margin: auto;
+  border: 2px solid #444;
 }
 
-svg {
-    width: 100%;
-    height: auto;
-    border: 1px solid #333;
-}
 
 .state {
     fill: #cccccc; /* default grey */
