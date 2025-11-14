@@ -8,16 +8,6 @@ const yearDetails = {
 };
 
 
-
-// This function updates the text whenever the dropdown changes
-function updateHistory() {
-  let year = document.getElementById("yearSelect").value;
-  let box = document.getElementById("historyBox");
-
-  box.innerHTML = historyData[year] || "No data available.";
-}
-
-
 var map = L.map('map').setView([37.8, -96], 4);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
