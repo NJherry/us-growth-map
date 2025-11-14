@@ -104,6 +104,17 @@ function loadMap(year) {
         }
       }).addTo(map);
     });
+    // Add labels (abbreviations)
+Object.keys(stateLabels).forEach(state => {
+    let s = stateLabels[state];
+    let label = L.marker([s.lat, s.lon], {
+        icon: L.divIcon({
+            className: 'state-label',
+            html: `<b>${s.abbr}</b>`
+        })
+    });
+    label.addTo(map);
+});
 }
 
 loadMap(1783);
