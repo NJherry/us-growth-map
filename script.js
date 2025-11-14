@@ -1,21 +1,16 @@
-// Accurate summary of U.S. state growth milestones
+// Store your history notes here
 const historyData = {
-  1776: "In 1776, the 13 original colonies declared independence from Britain and later became the first U.S. states. These included Massachusetts, Virginia, New York, Pennsylvania, Georgia, and others along the Atlantic coast.",
-
-  1800: "By 1800, the United States had expanded beyond its original colonies. Vermont (1791), Kentucky (1792), Tennessee (1796), and Ohio (1803) joined as new states, marking the beginning of westward expansion.",
-
-  1850: "By 1850, rapid growth had transformed the country. States like Louisiana, Indiana, Mississippi, Texas (1845), and California (1850) entered the Union, driven by migration, the Louisiana Purchase, and the Gold Rush.",
-
-  1900: "By 1900, most of the western territories had become states. Additions included Oregon (1859), Kansas (1861), Nevada (1864), Colorado (1876), and the Dakotas, Montana, Washington, Idaho, and Wyoming (1889–1890).",
-
-  1959: "In 1959, the United States completed its modern form when Alaska (January 1959) and Hawaii (August 1959) became the final two states, bringing the total to 50."
+  1776: "The original 13 colonies declared independence and became the first U.S. states.",
+  1800: "New states such as Kentucky and Tennessee were added as settlers moved west.",
+  1850: "Expansion continued rapidly, including Texas, California, and others.",
+  1900: "Most western territories transitioned into full statehood.",
+  1959: "Hawaii and Alaska were added, completing the 50 states."
 };
 
-// Function to update text when year changes
+// This function updates the text whenever the dropdown changes
 function updateHistory() {
   let year = document.getElementById("yearSelect").value;
-  document.getElementById("historyBox").innerHTML = historyData[year];
-}
+  let box = document.getElementById("historyBox");
 
-// Load default year
-updateHistory();
+  box.innerHTML = historyData[year] || "No data available.";
+}
