@@ -1,17 +1,23 @@
 body {
-  font-family: Arial;
-  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
 }
 
-#map {
-  height: 600px;
-  width: 90%;
-  margin: auto;
-  border: 2px solid #444;
+#mapContainer {
+  margin-top: 20px;
 }
-.state-label {
-  color: black;
-  font-size: 14px;
-  font-weight: bold;
-  text-shadow: 1px 1px 2px white;
+
+.stateLabel {
+  font-size: 12px;
+  fill: black;
+  pointer-events: none;
+}
+
+#historyBox {
+  margin-top: 20px;
+  background: #f2f2f2;
+  padding: 15px;
+  border-radius: 8px;
+  width: 60%;
+  font-size: 16px;
 }
