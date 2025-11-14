@@ -118,9 +118,7 @@ document.getElementById("yearSelect").addEventListener("change", function() {
     loadMap(year);
     document.getElementById("yearInfo").innerText = yearDetails[year];
 });
-document.getElementById("yearSelect").addEventListener("change", function() {
-  loadMap(parseInt(this.value));
-});
+
 // Add labels (abbreviations)
 Object.keys(stateLabels).forEach(state => {
     let s = stateLabels[state];
