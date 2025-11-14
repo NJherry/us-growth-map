@@ -10,3 +10,9 @@ body {
   border: 2px solid #444;
 }
 
+.state-label {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px white;
+}
