@@ -9,7 +9,7 @@ body {
   margin: 50px auto;       /* center horizontally and add vertical spacing */
   padding: 10px;           /* optional padding inside the container */
   border: 2px solid #444;  /* border for visibility */
-  box-sizing: border-box;  /* include padding in width/height */
+/*  box-sizing: border-box;  /* include padding in width/height */
 }
 
 //*#map {
