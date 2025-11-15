@@ -127,7 +127,7 @@ function loadMap(year) {
     });
 }
 
-loadMap(1776);
+loadMap("select a year");
 
 document.getElementById("yearSelect").addEventListener("change", function() {
     let year = parseInt(this.value);
