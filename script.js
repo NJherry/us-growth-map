@@ -1,5 +1,6 @@
 const yearDetails = {
   1776: `In 1776, the United States consisted mainly of the original 13 colonies after the Treaty of Paris ended the Revolutionary War.
+The US first 13 colonies includes New Hampshire, Massachusetts, Rhode Island, Connecticut, New York, New Jersey, Pennsylvania, Delaware, Maryland, Virginia (established 1607),North Carolina, South Carolina And Georgia.
 British Colonies - The 13 original states began as British colonies along the East Coast of North America.
 Declaration of Independence - They declared independence from Great Britain in 1776 during the Revolutionary War.`,
 
