@@ -16,3 +16,13 @@ body {
   font-weight: bold;
   text-shadow: 1px 1px 2px white;
 }
+
+#yearSelect {
+  font-size: 22px;      /* bigger text */
+  padding: 10px 18px;   /* bigger clickable area */
+  width: 260px;         /* wider box */
+  border-radius: 8px;   /* rounded edges */
+  border: 2px solid #444;
+  background-color: #f3f3f3;
+  cursor: pointer;
+}
