@@ -7,6 +7,7 @@ body {
   height: 600px;
   width: 200%;
   margin: auto;
+  align-items: center;    /* Centers vertically */
   border: 2px solid #444;
 }
 
