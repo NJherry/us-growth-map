@@ -2,7 +2,7 @@ const yearDetails = {
     1776: "In 1776, the United States consisted mainly of the original 13 colonies after the Treaty of Paris ended the Revolutionary War.
           "British Colonies - The 13 original states began as British colonies along the East Coast of North America."
           "Declaration of Independence-They declared independence from Great Britain in 1776 during the Revolutionary War.",
-    1800: "By 1800, the nation expanded westward, preparing for major growth including the Louisiana Purchase in 1803.",
+    1800: "By 1800s, The Louisiana Purchase (1803) doubled U.S. territory and encouraged westward expansion. The War of 1812 boosted national pride after ending with the Treaty of Ghent. The Monroe Doctrine (1823) warned Europe against further colonization in the Americas. During the Age of Jackson, political participation widened for white men, and controversial Native American removal policies took place. The Mexican-American War (1846–1848) led to U.S. control of vast southwestern lands through the Treaty of Guadalupe Hidalgo.",
     1850: "By 1850, the U.S. had grown significantly, with new states following western migration and rising tensions over slavery.",
     1900: "By 1900, the U.S. industrialized rapidly, gaining states across the West and entering the modern era.",
     1959: "By 1959, Alaska and Hawaii joined, completing the 50 U.S. states as we know them today."
