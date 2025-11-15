@@ -4,6 +4,7 @@ body {
 }
 
 #map {
+  padding: 400px 80px;
   height: 400px;
   width: 80%;
   margin: auto;
