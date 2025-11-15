@@ -4,12 +4,11 @@ body {
 }
 
 #map {
-  width: 500px;            /* fixed width */
-  height: 500px;           /* same as width to make it square */
-  margin: 50px auto;       /* center horizontally and add vertical spacing */
-  padding: 10px;           /* optional padding inside the container */
-  border: 2px solid #444;  /* border for visibility */
-  box-sizing: border-box;  /* include padding in width/height */
+  padding: 10px 10px;
+  height: 3px;
+  width: 50%;
+  margin: auto;
+  border: 2px solid #444;
 }
 
 .state-label {
