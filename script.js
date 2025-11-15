@@ -5,8 +5,7 @@ Declaration of Independence - They declared independence from Great Britain in 1
 
   1800: `By 1800s, the Louisiana Purchase (1803) doubled U.S. territory and encouraged westward expansion. 
 The War of 1812 boosted national pride after ending with the Treaty of Ghent. 
-The Monroe Doctrine (1823) warned Europe against further colonization in the Americas. 
-During the Age of Jackson, political participation widened for white men, and controversial Native American removal policies took place. 
+The Monroe Doctrine (1823) warned Europe against further colonization in the Americas.  
 The Mexican-American War (1846–1848) led to U.S. control of vast southwestern lands through the Treaty of Guadalupe Hidalgo.`,
 
   1850: `By 1850, the U.S. had grown significantly, with new states following western migration and rising tensions over slavery. 
@@ -18,15 +17,10 @@ Overall, the U.S. transformed from a nation divided by war into a modern, indust
 
   1900: `By 1900, the U.S. industrialized rapidly, gaining states across the West and entering the modern era.
 The U.S. became the world’s leading industrial power, but harsh working conditions and rising inequality fueled labor unions and reform movements.
-Financial instability, including the Panics of 1901 and 1907, exposed weaknesses in the economic system.
-Immigration surged from Europe, reshaping cities, while the Great Migration began moving Black Americans from the rural South to the North.
-Society shifted from the Gilded Age to the Progressive Era, addressing corruption, inequality, and securing reforms like women’s suffrage.
-Segregation remained entrenched under Jim Crow, even as the U.S. expanded territorially and grew to 45 states.`,
+Financial instability, including the Panics of 1901 and 1907, exposed weaknesses in the economic system.`,
 
   1959: `By 1959, Alaska and Hawaii became the 49th and 50th U.S. states, leading to updated national flags.
-The Cold War escalated with Castro’s rise in Cuba and the Nixon–Khrushchev Kitchen Debate.
-At home, civil rights concerns grew, Cuban refugees arrived, and the “Day the Music Died” aviation tragedy occurred.
-The U.S. advanced technologically with Explorer 6, the microchip, the birth control pill, and early involvement in Vietnam.`
+The Cold War escalated with Castro’s rise in Cuba and the Nixon–Khrushchev Kitchen Debate.`
 };
 
 var map = L.map('map').setView([37.8, -96], 4);
