@@ -4,11 +4,9 @@ body {
 }
 
 #map {
-  height: 400px;
-  width: 50%;
+  height: 600px;
+  width: 200%;
   margin: auto;
-  margin-left: 20px; /* Sets a 20px margin on the left */
-  margin-right: 30px; /* Sets a 30px margin on the right */
   border: 2px solid #444;
 }
 
