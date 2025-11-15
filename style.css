@@ -19,7 +19,7 @@ body {
 
 #yearSelect {
   font-size: 22px;      /* bigger text */
-  padding: 15px 18px;   /* bigger clickable area */
+  padding: 12px 22px;   /* bigger clickable area */
   width: 260px;         /* wider box */
   border-radius: 8px;   /* rounded edges */
   border: 2px solid #444;
