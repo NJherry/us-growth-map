@@ -1,5 +1,7 @@
 const yearDetails = {
-    1776: "In 1776, the United States consisted mainly of the original 13 colonies after the Treaty of Paris ended the Revolutionary War. British Colonies - The 13 original states began as British colonies along the East Coast of North America. Declaration of Independence-They declared independence from Great Britain in 1776 during the Revolutionary War.",
+    1776: "In 1776, the United States consisted mainly of the original 13 colonies after the Treaty of Paris ended the Revolutionary War.
+          "British Colonies - The 13 original states began as British colonies along the East Coast of North America."
+          "Declaration of Independence-They declared independence from Great Britain in 1776 during the Revolutionary War.",
     1800: "By 1800, the nation expanded westward, preparing for major growth including the Louisiana Purchase in 1803.",
     1850: "By 1850, the U.S. had grown significantly, with new states following western migration and rising tensions over slavery.",
     1900: "By 1900, the U.S. industrialized rapidly, gaining states across the West and entering the modern era.",
